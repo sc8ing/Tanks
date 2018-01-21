@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tanks</title>
+	<script src="tanks.js"></script>
+	<style>
+		body {
+			background-color: red;
+		}
+		canvas {
+			border: 1px solid black;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div id="gameContainer"></div>
+	<script>
+		tanks(document.getElementById('gameContainer'), 550, 330);
+	</script>
+</body>
+</html>
